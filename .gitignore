@@ -1,1 +1,5 @@
 node_modules
+gulp_files/
+src/
+.gitignore
+blank_templates/
