@@ -139,7 +139,7 @@ html {
 }
 
 .about-card {
-  background: rgba(255, 255, 255, 0.46);
+  background: rgba(255, 255, 255, 0.75);
   height: 100%;
 }
 
@@ -255,6 +255,7 @@ html {
   position: relative;
   z-index: 200;
   border: 0.125rem solid #333333;
+  text-align: center;
 }
 
 .project-card__main a span {
@@ -670,6 +671,11 @@ html {
   text-align: center;
 }
 
+.section-6__footer > :nth-child(1) {
+  color: #db545a;
+  font-weight: bold;
+}
+
 .section-7__container {
   background-color: #e5e5e5;
   max-width: 77.5rem;
@@ -720,6 +726,7 @@ html {
   right: 5%;
   -webkit-box-shadow: 0px 0px 30px 0px rgba(26, 26, 26, 0.5);
           box-shadow: 0px 0px 30px 0px rgba(26, 26, 26, 0.5);
+  margin-bottom: 30px;
 }
 
 .body__wrapper {
@@ -968,11 +975,11 @@ html {
   }
 
   .project-card__main {
-    padding-left: 1.875rem;
+    padding-left: 1rem;
   }
 
   .project-card__main {
-    padding-right: 1.875rem;
+    padding-right: 1rem;
   }
 
   .project-card__main a span {
@@ -1260,7 +1267,7 @@ html {
   }
 
   .section-6__copy {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   .section-6__copy {
@@ -1292,11 +1299,15 @@ html {
   }
 
   .section-6__footer > :nth-child(2) {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .section-6__footer > :nth-child(2) {
-    line-height: 2rem;
+    line-height: 2.25rem;
+  }
+
+  .section-6__footer > :nth-child(2) {
+    margin-bottom: 1.875rem;
   }
 
   .section-7__container {
@@ -2064,6 +2075,10 @@ html {
     line-height: 1rem;
   }
 
+  .section-6__footer > :nth-child(2) {
+    margin-bottom: 1rem;
+  }
+
   .section-7__container {
     padding-left: 0.3125rem;
   }
@@ -2396,7 +2411,7 @@ html {
   }
 
   .section-6__copy {
-    font-size: clamp( 0.75rem , 0.6748704663rem  +  0.414507772vw , 1rem );
+    font-size: clamp( 0.75rem , 0.5997409326rem  +  0.829015544vw , 1.25rem );
   }
 
   .section-6__copy {
@@ -2428,11 +2443,15 @@ html {
   }
 
   .section-6__footer > :nth-child(2) {
-    font-size: clamp( 0.75rem , 0.5997409326rem  +  0.829015544vw , 1.25rem );
+    font-size: clamp( 0.75rem , 0.524611399rem  +  1.2435233161vw , 1.5rem );
   }
 
   .section-6__footer > :nth-child(2) {
-    line-height: clamp( 1rem , 0.6994818653rem  +  1.6580310881vw , 2rem );
+    line-height: clamp( 1rem , 0.6243523316rem  +  2.0725388601vw , 2.25rem );
+  }
+
+  .section-6__footer > :nth-child(2) {
+    margin-bottom: clamp( 1rem , 0.7370466321rem  +  1.4507772021vw , 1.875rem );
   }
 
   .section-7__container {
@@ -2540,11 +2559,11 @@ html {
   }
 
   .project-card__main {
-    padding-left: clamp( 0.625rem , -1.3461202825rem  +  4.1066075315vw , 1.875rem );
+    padding-left: clamp( 0.625rem , 0.0336639152rem  +  1.2319822595vw , 1rem );
   }
 
   .project-card__main {
-    padding-right: clamp( 0.625rem , -1.3461202825rem  +  4.1066075315vw , 1.875rem );
+    padding-right: clamp( 0.625rem , 0.0336639152rem  +  1.2319822595vw , 1rem );
   }
 
   .about__container {
